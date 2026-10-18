@@ -1,0 +1,15 @@
+{
+  "requirements.txt": "98760dfac1f6e3ce6a5e47806f7fbe1eac4faa50cfacc057f4622a6edfe077cc",
+  ".gitignore": "3d44a3d798790e8b761b4fc00452edd0b352ec49b4f2627306f26ce204e6ab92",
+  "README.md": "82f724db2a239e78c5c3c858f517492f31a97c105a2c607617c3ea04761b588d",
+  "notebooks/Financial_Statement_Quality_Earnings_Surprise_Model.ipynb": "f9da1b257098890159b9b0ae2672e7b2981c2cfa05cd8c9efc6cd6d0e9b0bb2d",
+  "src/research_core.py": "a395828b74b5f2406beeebc289de776ee0b44f2a4919e1c43d517656aac0e528",
+  "tests/test_research_core.py": "50cfff41f3f3f37f39c8a11319088b77f395f80711d430dff9f8f62ebb17ba0b",
+  "outputs/.gitkeep": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+  "docs/validation.json": "8670b1844a7e0d29136f87830e1ae61e3d51d4caae1c7a607ac90671716c01fb",
+  "docs/notebook_preview.html": "076462756dd1c51bbb01ced8b5c1d4d594f7892fd586f2386b8d0a0131f8759d",
+  "docs/test_results.txt": "4d20c08fac09b334b7cbe96006f286ee6de1c2719135b99df6f56e4dbac5b9bb",
+  "docs/CHANGELOG.md": "f20b73be2acedb7ae804f28a98a482496f126a67ce98e75428ab2093c5f77e0d",
+  "docs/VALIDATION.md": "25e2b8922d4f3cf4ab4ac0d302a47f75f6e869f4c9f35a3acf12d149e51a6d35",
+  "docs/METHODOLOGY.md": "d74a1815536cf15c47906f6924e51ee088dfabb49ae006cd6911b04334615feb"
+}
