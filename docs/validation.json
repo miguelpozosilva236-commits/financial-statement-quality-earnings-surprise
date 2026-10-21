@@ -1,13 +1,36 @@
 {
-  "review_date": "2026-10-16",
+  "review_date": "2026-10-20",
   "format_valid": true,
   "syntax_valid": true,
-  "notebook_cells": 26,
-  "tested_functions_match_notebook": true,
+  "notebook_cells": 27,
+  "executed_code_cells": 14,
+  "saved_plot_outputs": 6,
   "unit_tests_passed": 10,
-  "live_execution": "blocked",
-  "live_execution_reason": "RuntimeError: Kernel died before replying to kernel_info",
-  "sequential_python_execution": "blocked",
-  "sequential_python_reason": "cell 3: RuntimeError: Configure SEC_USER_AGENT with your own project name and contact address before a live run. See README.md.",
-  "empirical_results_validated": false
+  "live_source_execution": "completed",
+  "engine": {
+    "completed_utc": "2026-10-20T21:56:02.423203+00:00",
+    "executed_code_cells": 14,
+    "figures": 6,
+    "name": "IPython in-process, fresh Python process; matplotlib Agg capture",
+    "reason": "Host blocks Jupyter TCP kernel sockets"
+  },
+  "independent_event_return_checks": 10,
+  "annual_accession_fact_checks": 3,
+  "cat_parent_income_identity_checked": true,
+  "empirical_results_validated": true,
+  "scope": "retrospective academic association study",
+  "point_in_time_consensus_vintage_verified": false,
+  "investment_strategy_validated": false,
+  "visual_review": {
+    "status": "reviewed",
+    "figures": 6,
+    "checks": [
+      "Titles, axes and units readable",
+      "No clipped chart labels",
+      "Uncertainty intervals and held-out results match saved tables"
+    ],
+    "limitations": [
+      "The linear price chart is dominated by NVDA; it is descriptive context only."
+    ]
+  }
 }

@@ -1,3 +1,15 @@
+# Real-data completion — 20 October 2026
+
+- Executed all 14 code cells with real SEC/Yahoo inputs and saved outputs.
+- Fixed the announcement scope to 2021–2025 and included historical SEC submission blocks.
+- Added frozen source snapshots, retrieval metadata, hashes and a socket-independent execution runner.
+- Added quarter-block uncertainty, issuer-clustered exploratory OLS, a held-out baseline comparison and a nonfinancial sensitivity with ranks rebuilt.
+- Independently reconciled sampled returns and accession-specific annual fundamentals.
+- Published aggregate findings while keeping raw vendor records out of public version control.
+- Updated dependency pins to the environment that actually completed the run.
+
+---
+
 # Technical revision — 16 October 2026
 
 Original notebook: August 2026. The 26-cell teaching/research flow is retained.

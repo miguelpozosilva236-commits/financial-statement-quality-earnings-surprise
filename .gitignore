@@ -3,7 +3,7 @@ __pycache__/
 *.pyc
 .env
 .ipynb_checkpoints/
-data/cache/
+data/
 outputs/*
 !outputs/.gitkeep
 *.executed.ipynb

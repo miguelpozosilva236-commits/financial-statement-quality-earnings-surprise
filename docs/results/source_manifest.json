@@ -1,0 +1,978 @@
+[
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000320193.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:44:38.629541+00:00",
+    "sha256": "73a86c6aedc31f77cac2ea4df5f80f0b3bd7e6eb58bb4e01444fbedf3afb9c43",
+    "bytes": 3789099,
+    "file": "AAPL_0000320193_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000320193.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:44:45.382526+00:00",
+    "sha256": "c24afa8dfdd359593f193c737a5af2d49f172f81fe83b7019d7d7e2e3fc2cb5f",
+    "bytes": 163778,
+    "file": "AAPL_0000320193_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/AAPL/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-19T16:54:45.938201+00:00",
+    "sha256": "723f17170ea066bf386a7cd28e394f8e0dacb201836e0df46a39eccdfcfddb7f",
+    "bytes": 2092,
+    "file": "AAPL_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/AAPL/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:45:12.648311+00:00",
+    "sha256": "2c6b09ea8f664adbf1e4fcd576f4d9f2d040d902af1576366d58ac3f279b2f0b",
+    "bytes": 45288,
+    "file": "AAPL_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001018724.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:14.926047+00:00",
+    "sha256": "7549fb68446eee40e1f50a166fa06b2d2ee6349e07c8553a4828757e032d3cd4",
+    "bytes": 4478611,
+    "file": "AMZN_0001018724_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001018724.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:21.225314+00:00",
+    "sha256": "1f5bb6be4033e2378bfa0d14e0d9276a08d8dfb070b263f59ca0e77d68ced058",
+    "bytes": 159904,
+    "file": "AMZN_0001018724_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/AMZN/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:10.991040+00:00",
+    "sha256": "318dbf84fd90656da21a0a755eb7f6ec0d3d727e56c6694eb1d4cfe8c8394afa",
+    "bytes": 2154,
+    "file": "AMZN_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/AMZN/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:45:26.900224+00:00",
+    "sha256": "40e3aef25f475a478ad9d25be2fca4fb607beef9e0d485270075fe9451762681",
+    "bytes": 44577,
+    "file": "AMZN_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000018230.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:46.461434+00:00",
+    "sha256": "01ddc6ffa741f0a7da440e2949b2ed19cec14fab35435a398e3f3d0100019715",
+    "bytes": 5868239,
+    "file": "CAT_0000018230_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000018230.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:53.034018+00:00",
+    "sha256": "0acab15fde27b3fb5194c6c0330cd027677037c546ba688f82d0f98c2697543a",
+    "bytes": 167616,
+    "file": "CAT_0000018230_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/CAT/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:28.513538+00:00",
+    "sha256": "00987199e43a125c0e1c1c4fede96cfc9e6c92c991dcb4c408e1b7ccc047b8ac",
+    "bytes": 2120,
+    "file": "CAT_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/CAT/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:52.505997+00:00",
+    "sha256": "429a65465f7293a58d81d8773fa418314cee34b4c4be3053c138d7bf7b2e2ebf",
+    "bytes": 45006,
+    "file": "CAT_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000018230-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:59.562865+00:00",
+    "sha256": "40d006e857ba4df045ea32184b8cf1efc88e96a7b700bd57d6e560cc1c9db245",
+    "bytes": 319424,
+    "file": "CIK0000018230-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:34.155276+00:00",
+    "sha256": "bfd9b24343f3b612c0e28c887c5dc56524519b3ddf2787ac982a4ae8a95b4127",
+    "bytes": 372633,
+    "file": "CIK0000019617-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-002.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:40.574815+00:00",
+    "sha256": "6082c99863d36f015cb236dc6253579b0ec4f5375274b234beb80500dd4994e5",
+    "bytes": 371213,
+    "file": "CIK0000019617-submissions-002.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-003.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:47.010751+00:00",
+    "sha256": "63d907007b241f1323022ac2b77ce5aab19ad5ff9309bee0db3367fadd8eeb68",
+    "bytes": 371002,
+    "file": "CIK0000019617-submissions-003.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-004.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:53.371026+00:00",
+    "sha256": "18fe55cfe47a3458cccf3c195e72f7b775ed5f233985dc2340469b0ff5f02f2f",
+    "bytes": 385526,
+    "file": "CIK0000019617-submissions-004.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-005.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:59.827258+00:00",
+    "sha256": "9e2af3bcf35eb60bc94162ca309a73147cba0df9cd0c44ea49198837719b7de4",
+    "bytes": 361647,
+    "file": "CIK0000019617-submissions-005.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-006.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:06.914630+00:00",
+    "sha256": "e42435deb3f1f74b819f7d98289f853527c1303e18b6c7a84379e18ae338d103",
+    "bytes": 366665,
+    "file": "CIK0000019617-submissions-006.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-007.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:11.038924+00:00",
+    "sha256": "5e401b7e4c7eb7a869352a4899031575c3d3e9e0a0b1159c2d11055c5f7c6877",
+    "bytes": 366260,
+    "file": "CIK0000019617-submissions-007.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-008.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:15.095189+00:00",
+    "sha256": "fdb74e602b3de3f26dc6f719a3aac3b1c321e2989f7f840565914dbdabb6b9a8",
+    "bytes": 368184,
+    "file": "CIK0000019617-submissions-008.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-009.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:19.186716+00:00",
+    "sha256": "f051c153d947a6e0e3e77db51a77ad756ba33063c0626ee1db3efa9c17697bd4",
+    "bytes": 365592,
+    "file": "CIK0000019617-submissions-009.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-010.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:25.514961+00:00",
+    "sha256": "098178be24d93df9cd3d6070ac16a9e5a420f42785417c9437dc8c4669095c7d",
+    "bytes": 384886,
+    "file": "CIK0000019617-submissions-010.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-011.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:31.975094+00:00",
+    "sha256": "61b7c432f917c3030b237754f9ba1c3f505bbf1dfdcead039ac7edd7232d3727",
+    "bytes": 368003,
+    "file": "CIK0000019617-submissions-011.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-012.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:41.791197+00:00",
+    "sha256": "210711eb4c037cd9380f89649669981ac32d8c631b50230733dabc41091a0974",
+    "bytes": 369867,
+    "file": "CIK0000019617-submissions-012.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-013.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:44.858794+00:00",
+    "sha256": "0e535ea9a35aa53d37a98800333eff9e9529518c810d6adc70b215be5222e7f3",
+    "bytes": 368778,
+    "file": "CIK0000019617-submissions-013.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-014.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:41.802393+00:00",
+    "sha256": "972c0fc1a62188e9d9560943ba74f878f90200584f20b86a06696a0480e63f31",
+    "bytes": 364219,
+    "file": "CIK0000019617-submissions-014.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-015.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:37.286296+00:00",
+    "sha256": "1caa55ed89afcf416d8b35e4d3ab90f11fbb639f7944a996d3f1a9022768e32c",
+    "bytes": 387557,
+    "file": "CIK0000019617-submissions-015.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-016.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:37.270899+00:00",
+    "sha256": "c7bd891e7017e608c4ed23474358a42c00dd6ebacfad5d5fb9585b77aef826a4",
+    "bytes": 360302,
+    "file": "CIK0000019617-submissions-016.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-017.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:37.274105+00:00",
+    "sha256": "1a77aca26911a9250c691d6279f8c755f58a1321348669e7be59e206995bb26b",
+    "bytes": 352398,
+    "file": "CIK0000019617-submissions-017.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-018.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:32.906294+00:00",
+    "sha256": "9802ed672767a69d80bb12e97a7b1920dff5566c68bc5caed3d5eeda83342ae4",
+    "bytes": 351849,
+    "file": "CIK0000019617-submissions-018.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-019.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:32.871091+00:00",
+    "sha256": "2b72000bb1e30e22a86200f24bd94cd4c8934475c9373105ac03cf6b8d368cae",
+    "bytes": 364246,
+    "file": "CIK0000019617-submissions-019.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-020.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:32.743408+00:00",
+    "sha256": "d491a7e1cbdf2e0f8c7be3758b8f9636a203850d07482ab89a78c252c9d825fb",
+    "bytes": 363318,
+    "file": "CIK0000019617-submissions-020.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-021.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:28.611262+00:00",
+    "sha256": "9f04652ff546026a5668078f2928fa573f6d143b5509816c720ea435996b8adf",
+    "bytes": 359371,
+    "file": "CIK0000019617-submissions-021.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-022.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:28.746476+00:00",
+    "sha256": "3c06692a75c27b3e111f588b14e262b665beddbc22bd1114c0721a5445b75f54",
+    "bytes": 363431,
+    "file": "CIK0000019617-submissions-022.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-023.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:28.658412+00:00",
+    "sha256": "0e85bf63aa2b99a25d374741bc56f7b4a5e1f4c90fd8590db4188be0c7e61a03",
+    "bytes": 359605,
+    "file": "CIK0000019617-submissions-023.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-024.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:23.936422+00:00",
+    "sha256": "9e1501d4f4742795405ae7f1db27651d9d1a1b66df6f033a50761a7d2548ec47",
+    "bytes": 355964,
+    "file": "CIK0000019617-submissions-024.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-025.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:23.859087+00:00",
+    "sha256": "5e230ffa131902c69a9e837eb2f1b52ae315fce5b3da0c95ebb5969a266d3839",
+    "bytes": 353210,
+    "file": "CIK0000019617-submissions-025.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-026.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:23.934795+00:00",
+    "sha256": "be6259246b884072cdf3b9d064f3cfb163670f034f200b31d0ee60c6b7710008",
+    "bytes": 367814,
+    "file": "CIK0000019617-submissions-026.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-027.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:19.566406+00:00",
+    "sha256": "cbbcf814b1ff4d6ed9cd10238a48bdf966077229ff813c911622c2ab9487adbb",
+    "bytes": 361334,
+    "file": "CIK0000019617-submissions-027.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-028.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:19.574586+00:00",
+    "sha256": "b63935b21561f2d395ba79591f7367baef1b796eb810f59bab85236755e11b90",
+    "bytes": 367822,
+    "file": "CIK0000019617-submissions-028.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-029.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:19.534669+00:00",
+    "sha256": "024cbd0d96f9e892f60de8f8a2c698372a37e8987fd33faf125e8b825730ebfd",
+    "bytes": 351201,
+    "file": "CIK0000019617-submissions-029.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-030.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:13.254657+00:00",
+    "sha256": "63a3e73ff08edf16a59c3742639f1a1a7f3a84ead8f02ceff30698e10bca2fb0",
+    "bytes": 352908,
+    "file": "CIK0000019617-submissions-030.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-031.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:13.006798+00:00",
+    "sha256": "fadaece4808658f1e745fbf7cbce49ad4530be6c0be2fe56cbede5086e3e8957",
+    "bytes": 375047,
+    "file": "CIK0000019617-submissions-031.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-032.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:13.050675+00:00",
+    "sha256": "ac766e8f7dcbbfeb01ab2f50c2b822692f16b5c12e62fbd39ec03a13fca8a9d1",
+    "bytes": 353291,
+    "file": "CIK0000019617-submissions-032.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-033.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:06.706282+00:00",
+    "sha256": "bc118eadaf7ef820ec98e2dcc906540950b9bbdcfefc9a51e0d6ae42d00dcd10",
+    "bytes": 353162,
+    "file": "CIK0000019617-submissions-033.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-034.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:06.698735+00:00",
+    "sha256": "e535c9693e348f2a21e3ce12119a594520b21ed806b651743f196a85f6c98917",
+    "bytes": 348870,
+    "file": "CIK0000019617-submissions-034.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-035.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:06.694954+00:00",
+    "sha256": "37f5ef5ac4a07fb55a6d27c613fef794895d24e40ec5ae2809578ea9c4ed9a7f",
+    "bytes": 354671,
+    "file": "CIK0000019617-submissions-035.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-036.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:01.426966+00:00",
+    "sha256": "685bd534c745a49469421a52629ccea8ff3be4f33effc433ac7171fc3dba8f48",
+    "bytes": 351855,
+    "file": "CIK0000019617-submissions-036.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-037.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:01.423182+00:00",
+    "sha256": "a19b500a7f289af7fae94faee5a624b2e562b9e299d6cd364a95888663452798",
+    "bytes": 347630,
+    "file": "CIK0000019617-submissions-037.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-038.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:01.436105+00:00",
+    "sha256": "d79cb5102bfb770e38ad740065006e0485afda2825cc06e814c7823d8aa7e30d",
+    "bytes": 348284,
+    "file": "CIK0000019617-submissions-038.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-039.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:57.150603+00:00",
+    "sha256": "7ba6be2790c0ad802189f35308f48acbdfcef4b359bf514685f9d41def365930",
+    "bytes": 349908,
+    "file": "CIK0000019617-submissions-039.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-040.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:57.130857+00:00",
+    "sha256": "5b4c9873d8d34b2f6e4f50234c97d4a67bfab1a445cab53edf9a0a13ed944e2b",
+    "bytes": 346524,
+    "file": "CIK0000019617-submissions-040.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-041.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:57.094805+00:00",
+    "sha256": "f112776f881348b6b29b4e31024315958951e3f8316ef1e343b4ad18aa3251d7",
+    "bytes": 349244,
+    "file": "CIK0000019617-submissions-041.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-042.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:52.407284+00:00",
+    "sha256": "e2d2d38a29c79edf86fea7ec4817e6bad82dad55681faf6672d928798b8389d4",
+    "bytes": 357094,
+    "file": "CIK0000019617-submissions-042.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-043.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:52.522774+00:00",
+    "sha256": "4c0d17847eb712284aab2ce47d603f371a37296727ee477d08ac3ba4422bfa48",
+    "bytes": 355216,
+    "file": "CIK0000019617-submissions-043.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-044.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:52.426661+00:00",
+    "sha256": "3b5c8f3331f1db7563b977b2ace94d950b89a8115ed3099bbc74c419508e5cb6",
+    "bytes": 360510,
+    "file": "CIK0000019617-submissions-044.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-045.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:47.602671+00:00",
+    "sha256": "af3a188cde66021c10b7800345a788c476e7cf39d0a6013b246a2b6336cfb8eb",
+    "bytes": 353398,
+    "file": "CIK0000019617-submissions-045.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-046.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:47.654456+00:00",
+    "sha256": "48d1dcdfec6873e05ccda06b61ffd28eab8ae32ff56b7296aacc65b339e67bda",
+    "bytes": 348988,
+    "file": "CIK0000019617-submissions-046.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-047.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:47.590905+00:00",
+    "sha256": "2c54c57eacade6da720eaaa9f1aa542785a15cc9e87d2b9ef4c1a79cd5e571a1",
+    "bytes": 366519,
+    "file": "CIK0000019617-submissions-047.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-048.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:43.199693+00:00",
+    "sha256": "b1ec836f64c4c7979903c6326654127fa6fd2e2f97145fa0aca3a3e93d5cf064",
+    "bytes": 355179,
+    "file": "CIK0000019617-submissions-048.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-049.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:43.167165+00:00",
+    "sha256": "789ac48d4354c288d6f310e767419ae63c801557ff6a4db97739512ec4d61314",
+    "bytes": 353144,
+    "file": "CIK0000019617-submissions-049.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617-submissions-050.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:43.115680+00:00",
+    "sha256": "17df1df59fbfa9e722c59eb7977e2ef3d7b80cbdfa6b1887fc1e8ffb46623a33",
+    "bytes": 346053,
+    "file": "CIK0000019617-submissions-050.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000034088-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:54:07.678880+00:00",
+    "sha256": "e806a24ea2b1133597e14964f139cc353df5a669f1db8e2ee7d327173474bb89",
+    "bytes": 316569,
+    "file": "CIK0000034088-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000080424-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:50:18.915018+00:00",
+    "sha256": "fbefa2a512d10a0367a3d35109044f3f86340b5c3fea48d0f5c5a706d65eb210",
+    "bytes": 324389,
+    "file": "CIK0000080424-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000093410-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:05.446758+00:00",
+    "sha256": "16e88b5d98984a38242110e48b4829200748a3564081fa0650a54af3f7ea5bd9",
+    "bytes": 295221,
+    "file": "CIK0000093410-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000104169-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:25.630592+00:00",
+    "sha256": "7a164befa76316a5903706100782bd89b4abfa11df6b370b65b6f440617da0b4",
+    "bytes": 313914,
+    "file": "CIK0000104169-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000789019-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:07.610964+00:00",
+    "sha256": "451415b0dfe65e353081167154ab32b7ce241c76ae05ed7f5729833aea7639fa",
+    "bytes": 308327,
+    "file": "CIK0000789019-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001018724-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:27.794724+00:00",
+    "sha256": "4d75fbd7d19d9955dcb0b19ebbd0cf1de8a1aff0cc0436a2cc1d0c5333c3a12a",
+    "bytes": 316347,
+    "file": "CIK0001018724-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001045810-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:26.462934+00:00",
+    "sha256": "4a3b5cc6b698ff2e49cd4ef95539964b0690bccc5882ac3db8ffd2c4b7fce99c",
+    "bytes": 239281,
+    "file": "CIK0001045810-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001326801-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:06.174593+00:00",
+    "sha256": "636dcc652daa12721ed7da1a4b5e697f14bfb6495dda02bd76c3a39d8802907d",
+    "bytes": 315343,
+    "file": "CIK0001326801-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001652044-submissions-001.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:46.146514+00:00",
+    "sha256": "99e552468fe10718c0e21dd9a85f7d6f485ea5299984475c1dee578516f97cf8",
+    "bytes": 268399,
+    "file": "CIK0001652044-submissions-001.json"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000093410.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:50:52.337571+00:00",
+    "sha256": "c09b160603412cb45acf1bb9bf3732e531dedfb548afa0e275fd8aefd7ab397e",
+    "bytes": 4810683,
+    "file": "CVX_0000093410_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000093410.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:50:58.945880+00:00",
+    "sha256": "66f15b8aecbb05d9be0f6c5ce179fd975d23b3a43f86864f3d111b5a76efc64c",
+    "bytes": 157430,
+    "file": "CVX_0000093410_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/CVX/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:24.263656+00:00",
+    "sha256": "91d35a5add1277a4f209daa7416db163ba99c670abb5602880d6903ed44813ef",
+    "bytes": 2135,
+    "file": "CVX_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/CVX/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:30.318934+00:00",
+    "sha256": "89b4c2643233f446052c77fe1534bbd74519032e2ddb27c6b3ee45644a878816",
+    "bytes": 45064,
+    "file": "CVX_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001652044.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:34.695804+00:00",
+    "sha256": "a017f26ee88cb4a639d1c1ddb06d53b4afe22f0ac89cabec7cd67c88919fe1c5",
+    "bytes": 3164517,
+    "file": "GOOGL_0001652044_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001652044.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:41.010300+00:00",
+    "sha256": "648cea84d824309b518807fd7e7fdb72d6855e12e8afa221d2caa047d5c9f2ca",
+    "bytes": 152401,
+    "file": "GOOGL_0001652044_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/GOOGL/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:12.446751+00:00",
+    "sha256": "9b96df990b540a70bed881301bd70ff312b6c9bbb82d7aad8dcf9a2298d4c65c",
+    "bytes": 2118,
+    "file": "GOOGL_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/GOOGL/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:45:33.971261+00:00",
+    "sha256": "bba962d9e480eae7401bec5c83afec8e9bdbdedc2ed755b1338024076e238906",
+    "bytes": 45171,
+    "file": "GOOGL_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000354950.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:32.740019+00:00",
+    "sha256": "aaf03befa1695d87ce1252bc08ca278b65be63782e46dc0b2858aab7a32c1be2",
+    "bytes": 3217710,
+    "file": "HD_0000354950_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000354950.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:39.198052+00:00",
+    "sha256": "672ac7e954322732f26d909249186bfb4fef4157085d1f61634d447b2ccf0fba",
+    "bytes": 161373,
+    "file": "HD_0000354950_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/HD/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:27.051973+00:00",
+    "sha256": "1081d9b342c58a6af3a6eb72ac0d280185fe750b213c7b2474c6010b2ad99740",
+    "bytes": 2094,
+    "file": "HD_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/HD/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:45.378208+00:00",
+    "sha256": "857a10678a19221c1b15a8a5c4440138674da1af759f71729fedb369820b5d22",
+    "bytes": 44789,
+    "file": "HD_prices.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/^GSPC/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:59.415806+00:00",
+    "sha256": "a7b0747cf2e688ce95ce08e18dc7e112bf1a58428df626cdb5d769bbe6cbfd48",
+    "bytes": 41762,
+    "file": "INDEX_GSPC_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000200406.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:52.098252+00:00",
+    "sha256": "7141c0c988fa1d30f779687b4c78ab561e19aa5990a58ad86a66467d0a783980",
+    "bytes": 4168526,
+    "file": "JNJ_0000200406_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000200406.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:49:58.566799+00:00",
+    "sha256": "f0e519276f2ef9e9e820e3187f1f9136192b45d381f4302f943c8ec51390ff30",
+    "bytes": 154247,
+    "file": "JNJ_0000200406_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/JNJ/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:17.769036+00:00",
+    "sha256": "70142a627badfb1158dcb2db704e43a5466086afe7ab13ca985be92f04fbbdaf",
+    "bytes": 2083,
+    "file": "JNJ_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/JNJ/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:02.654158+00:00",
+    "sha256": "9e4576447753e0c43710c2e3093c3056a474aa52ec41a0c595f9613d25c14f77",
+    "bytes": 45377,
+    "file": "JNJ_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000019617.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:44:38.760018+00:00",
+    "sha256": "57f08813e8f8b6e9f94030e628ac16b046712ef64d1f32c73ec1b5d9afdc4cd9",
+    "bytes": 7992694,
+    "file": "JPM_0000019617_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000019617.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:44:45.475604+00:00",
+    "sha256": "5bf901d74d69bf93ff04ca7741d8586703db0b4781f1e95b7194a4d6a2d56a29",
+    "bytes": 4670551,
+    "file": "JPM_0000019617_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/JPM/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-19T16:54:49.018655+00:00",
+    "sha256": "5e727ef1dacaf567d03485591d7b7ab1461a88a52c4ead6677eba72975928e75",
+    "bytes": 2111,
+    "file": "JPM_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/JPM/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:45:55.501761+00:00",
+    "sha256": "e9432d5f42a34aa0a38c49248ce81f41392b7c31197be1eee88efb1532518cee",
+    "bytes": 45168,
+    "file": "JPM_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021344.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:50:26.035953+00:00",
+    "sha256": "53d363a9aa3071406cda9857654358f4dca42e174a1defb8cc1ce9ad2a4c9e40",
+    "bytes": 5028478,
+    "file": "KO_0000021344_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000021344.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:50:32.494043+00:00",
+    "sha256": "8591f2d5a02913481a2bc76458ab5c905f94e72f0856a18b6fa57e3f46235e39",
+    "bytes": 159098,
+    "file": "KO_0000021344_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/KO/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:21.123325+00:00",
+    "sha256": "f71a18dc71e25b1eaa6663b1594d60f89a65e6426ba7164f0fdd192910a5f208",
+    "bytes": 2087,
+    "file": "KO_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/KO/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:16.030748+00:00",
+    "sha256": "0f5e37523aeb365ada28db2b864b828ad3eb1ad9e6140ebc7ea962199b2b44e4",
+    "bytes": 44762,
+    "file": "KO_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001326801.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:53.116773+00:00",
+    "sha256": "7518e76d6dac2d016e1a3d1dec1cc55ff9ea3bdd58a151b16fcaa067a6c9d94e",
+    "bytes": 2746680,
+    "file": "META_0001326801_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001326801.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:47:59.613824+00:00",
+    "sha256": "bdf2ccd67c9ad38eefeec7f5ff15d591afb96a8b7c6e491c41d3abc94a839f1a",
+    "bytes": 157526,
+    "file": "META_0001326801_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/META/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:13.902721+00:00",
+    "sha256": "c5def90bf2bd31bad65618ad532b76be9853a4ddc05d3418f4bb36843e7a2e15",
+    "bytes": 2111,
+    "file": "META_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/META/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:45:41.177823+00:00",
+    "sha256": "8c215adda5d58aa7f89250510988d3cbd8890350127ede7e0f550b2bdc4fa06f",
+    "bytes": 44731,
+    "file": "META_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000789019.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:44:38.563711+00:00",
+    "sha256": "f8aae2965b20ad0df44bdf7ccbedf797d275b6b8dc030154a7a311361bb7246f",
+    "bytes": 4881196,
+    "file": "MSFT_0000789019_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000789019.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:44:45.361244+00:00",
+    "sha256": "a5848ba348a3d3ae08c3c40bf4599379014be077911e6550ed3a8182a34a6a7b",
+    "bytes": 185024,
+    "file": "MSFT_0000789019_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/MSFT/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-19T16:54:47.445865+00:00",
+    "sha256": "b67755e634edc50024461e169fd2066fcbd922f8c3b0f6c80af95a8ef30b22f6",
+    "bytes": 2107,
+    "file": "MSFT_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/MSFT/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:45:19.800235+00:00",
+    "sha256": "6fa04076a254e9a91209c0616c83562b8ca9147b256a29bfbcf7b781cc9e9977",
+    "bytes": 44821,
+    "file": "MSFT_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:13.306189+00:00",
+    "sha256": "19ef503a5770f5660964b3c3aea6937579d9b359da344afe6a9adf59c63d26ff",
+    "bytes": 4092966,
+    "file": "NVDA_0001045810_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0001045810.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:48:20.066615+00:00",
+    "sha256": "682c49d59116ae49b317eb4adddf3ef9142dfd97f59c5d8e5a5acad7f9058ab4",
+    "bytes": 159761,
+    "file": "NVDA_0001045810_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/NVDA/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:15.522090+00:00",
+    "sha256": "88b0751fe9ff1d18600479869ad2107ebb2c1575c22ea98de8b444b6a0d255a8",
+    "bytes": 2110,
+    "file": "NVDA_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/NVDA/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:45:48.317351+00:00",
+    "sha256": "5929f9b6edc25927b1ec7f0cf64db8438b04e5acff67c119de94cf3a5277ba36",
+    "bytes": 45300,
+    "file": "NVDA_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000080424.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:50:06.061688+00:00",
+    "sha256": "8e7b5d62ec28d9901d6e8bc94e2ed73852985252eb7032542d4c8e24b2492ab5",
+    "bytes": 3913348,
+    "file": "PG_0000080424_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000080424.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:50:12.461913+00:00",
+    "sha256": "5d70210737631bf11d61d617f4b10578ba48c45fc678e43daa35323486281e73",
+    "bytes": 160356,
+    "file": "PG_0000080424_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/PG/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:19.201690+00:00",
+    "sha256": "59cc4960cb451ee6e7fd81e0f93e726f62fb132e170545a658eddc94d3fcafa1",
+    "bytes": 2089,
+    "file": "PG_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/PG/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:09.983423+00:00",
+    "sha256": "265825bb76b0c4b5df36d8afff3730182f3304cf22017265d52784db024c504a",
+    "bytes": 45452,
+    "file": "PG_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000104169.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:12.786488+00:00",
+    "sha256": "54ec3fbf36dc203dd00a0333396b3df2b6695ecdf6cbb19b6ec41b053d86b517",
+    "bytes": 3770257,
+    "file": "WMT_0000104169_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000104169.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:51:19.150083+00:00",
+    "sha256": "0bca641a57ea709c35dedc40564d9f70240af653712b883514c19ca888608c53",
+    "bytes": 159152,
+    "file": "WMT_0000104169_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/WMT/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:25.706212+00:00",
+    "sha256": "dfb52b290428310d948cd5de69a14f6be9131c7092cc1688cea31192571a27c5",
+    "bytes": 2095,
+    "file": "WMT_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/WMT/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:38.321517+00:00",
+    "sha256": "043cf3dcd1a305a6381d6d81ddfbcc0c3edf7092ddf1c29f735041c8b019a618",
+    "bytes": 44814,
+    "file": "WMT_prices.csv"
+  },
+  {
+    "source": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000034088.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:53:54.362433+00:00",
+    "sha256": "9b95535419e5662e3deed01de803e83deead477a4c81316e1c45186368fdd8b8",
+    "bytes": 3122723,
+    "file": "XOM_0000034088_facts.json"
+  },
+  {
+    "source": "https://data.sec.gov/submissions/CIK0000034088.json",
+    "operation": "HTTP GET JSON",
+    "retrieved_utc": "2026-10-20T21:54:00.907242+00:00",
+    "sha256": "c86c3d1c16e5ac086be3ac2f5eaedbb3c2891ac3127a10d2566b0049cbde82df",
+    "bytes": 162387,
+    "file": "XOM_0000034088_submissions.json"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/XOM/earnings/",
+    "operation": "yfinance.Ticker.get_earnings_dates(limit=50); historical estimate vintage unverified",
+    "retrieved_utc": "2026-10-20T21:52:22.598765+00:00",
+    "sha256": "343e051e6511f40fa2e18f11359306700b6faf1b6983562d3c01238040541377",
+    "bytes": 2121,
+    "file": "XOM_earnings.csv"
+  },
+  {
+    "source": "https://finance.yahoo.com/quote/XOM/history/",
+    "operation": "yfinance.download auto_adjust=True; start=2020-01-01; end_exclusive=2026-02-15",
+    "retrieved_utc": "2026-10-20T21:46:23.238680+00:00",
+    "sha256": "f91a4e03b0eeed67c72616057f20df0ee786480aaf4215e8a0c22ca69de404cd",
+    "bytes": 45065,
+    "file": "XOM_prices.csv"
+  },
+  {
+    "source": "https://www.sec.gov/files/company_tickers.json",
+    "operation": "HTTP GET JSON, reused local source snapshot",
+    "retrieved_utc": "2026-10-19T16:55:37.566770+00:00",
+    "sha256": "bbffa40adbea620bba590da9a193ea14b21bfc04992f102549a2688d4e7d32df",
+    "bytes": 799264,
+    "file": "sec_company_tickers.json"
+  }
+]

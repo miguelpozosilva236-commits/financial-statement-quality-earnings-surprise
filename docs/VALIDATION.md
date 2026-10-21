@@ -1,23 +1,33 @@
 # Validation record
 
-Review date: 16 October 2026, America/Lima.
+Execution: 2026-10-20T21:56:02.354424+00:00.
 
-## Passed
+- 14 code cells executed sequentially in one fresh Python/IPython process, with saved outputs.
+- 6 native Matplotlib figure outputs saved in the notebook.
+- Ten deterministic timing/accounting tests passed.
+- 10 sampled event returns independently recomputed from source prices.
+- Three Apple annual fundamentals reconciled to the exact SEC accession, not a later restatement.
+- CAT annual parent income independently reconciled as consolidated profit less noncontrolling income, using the exact accession (see `cat_accounting_check.json`).
+- Coverage is complete: 20 announcements per company, 300 matched events, and 420 eligible filings across the fixed 15-company universe.
+- Every matched filing precedes the earnings date; entry follows the announcement date.
+- The latest training-label exit (2024-09-30) precedes the first test entry (2024-10-16).
+- Source snapshots have retrieval timestamps, byte counts and SHA-256 hashes.
 
-- Jupyter notebook schema validation: 26 cells.
-- Python syntax parsing for every code cell.
-- Ten deterministic unit tests: forward-return horizons, insufficient history, missing prices, additive CAR, instant XBRL facts, TTM construction with future-revision exclusion, strict as-of joins, future-invariant bucket thresholds, label-maturity purge and future-invariant quality scores.
+## Execution engine
 
-Run the tests from the project directory:
+The host blocks TCP kernel sockets, so nbclient could not start its Jupyter kernel. The included
+`scripts/execute_notebook.py` runs each actual code cell in a fresh local IPython process, fails on the
+first error, captures stdout/rich tables, and saves native Matplotlib plots into notebook outputs.
+This is a complete computational execution, with its engine explicitly recorded; it is not a successful
+Jupyter-kernel connectivity check. On an unrestricted local machine, ordinary Jupyter execution is also supported.
 
-```bash
-python -m unittest discover -s tests -v
-```
+## Boundaries
 
-The standalone helper definitions are embedded from the same source into the reviewed notebook. The tests use small constructed inputs solely to verify calculations; they are not reported as empirical research findings.
+Completed retrospective empirical analysis is not proof of forecasting skill, causation, investable alpha,
+or an audited point-in-time consensus dataset. Historical vendor estimates may have been revised.
+The fixed survivor universe, dependent events, limited quarter blocks/clusters and accounting-sector
+differences remain disclosed. Public outputs contain derived aggregates; raw vendor event/price records are not published.
 
-## Remaining
+## Visual review
 
-A complete real-data execution has not passed. This environment prohibits Jupyter kernel sockets, so the kernel could not start. Sequential execution of the pure-Python cells in-process successfully reached cell 3 and stopped at the missing SEC User-Agent configuration. Yahoo also returned HTTP 429 during the provider access check. No artificial market results were substituted. Configure the contact setting, run in an environment with a working Jupyter kernel and provider access, execute all cells and inspect the resulting figures/tables before reporting empirical findings.
-
-Notebook HTML preview is a static code/documentation view; it is not evidence of a successful empirical run. No strategy returns, model RMSE or statistical significance are asserted in this delivery.
+All six saved charts were inspected for readable titles, axes, units and clipping. The linear price-context chart is dominated by NVDA; the signal and held-out model charts remain the primary result figures.

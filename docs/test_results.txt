@@ -10,6 +10,6 @@ test_quality_scores_do_not_change_when_future_filings_are_appended (test_researc
 test_ttm_uses_annual_plus_current_ytd_less_prior_ytd (test_research_core.ResearchChecks.test_ttm_uses_annual_plus_current_ytd_less_prior_ytd) ... ok
 
 ----------------------------------------------------------------------
-Ran 10 tests in 0.070s
+Ran 10 tests in 0.087s
 
 OK

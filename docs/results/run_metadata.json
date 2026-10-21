@@ -1,0 +1,91 @@
+{
+  "status": "executed real-data retrospective academic study",
+  "execution_utc": "2026-10-20T21:56:02.354424+00:00",
+  "universe": [
+    "AAPL",
+    "MSFT",
+    "AMZN",
+    "GOOGL",
+    "META",
+    "NVDA",
+    "JPM",
+    "JNJ",
+    "PG",
+    "KO",
+    "XOM",
+    "CVX",
+    "WMT",
+    "HD",
+    "CAT"
+  ],
+  "event_start": "2021-01-01",
+  "event_end_exclusive": "2026-01-01",
+  "price_start": "2020-01-01",
+  "price_end_exclusive": "2026-02-15",
+  "benchmark": "^GSPC",
+  "filing_rows": 420,
+  "candidate_events": 300,
+  "numeric_surprises": 300,
+  "matched_events": 300,
+  "complete_21d": 300,
+  "event_first": "2021-01-15",
+  "event_last": "2025-11-20",
+  "train_events": 225,
+  "test_events": 74,
+  "test_first_entry": "2024-10-16",
+  "last_train_exit": "2024-09-30",
+  "random_seed": 42,
+  "return_checks_passed": 10,
+  "annual_fact_checks": [
+    {
+      "ticker": "AAPL",
+      "metric": "revenue",
+      "report_date": "2025-09-27",
+      "accession_number": "0000320193-25-000079",
+      "agrees": true
+    },
+    {
+      "ticker": "AAPL",
+      "metric": "net_income",
+      "report_date": "2025-09-27",
+      "accession_number": "0000320193-25-000079",
+      "agrees": true
+    },
+    {
+      "ticker": "AAPL",
+      "metric": "cfo",
+      "report_date": "2025-09-27",
+      "accession_number": "0000320193-25-000079",
+      "agrees": true
+    }
+  ],
+  "package_versions": {
+    "numpy": "2.3.5",
+    "pandas": "2.2.3",
+    "requests": "2.34.2",
+    "yfinance": "1.7.0",
+    "statsmodels": "0.15.0",
+    "scikit-learn": "1.8.0",
+    "scipy": "1.17.0",
+    "matplotlib": "3.10.8",
+    "seaborn": "0.13.2",
+    "nbformat": "5.11.1",
+    "nbconvert": "7.17.2",
+    "IPython": "9.17.1"
+  },
+  "limitations": [
+    "fixed survivor convenience sample",
+    "historical estimate vintage unverified",
+    "current provider adjustments and revisions",
+    "sector comparability",
+    "overlapping events and few inference clusters",
+    "gross observational returns; no implemented portfolio or cost analysis"
+  ],
+  "execution_engine": {
+    "completed_utc": "2026-10-20T21:56:02.423203+00:00",
+    "executed_code_cells": 14,
+    "figures": 6,
+    "name": "IPython in-process, fresh Python process; matplotlib Agg capture",
+    "reason": "Host blocks Jupyter TCP kernel sockets"
+  }
+}
